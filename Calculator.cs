@@ -99,4 +99,4 @@ namespace CalcultorConsoleApp
 			return a % b;
 		}
 	}
-}
+}	
