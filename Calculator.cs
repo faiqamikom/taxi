@@ -12,7 +12,6 @@ namespace CalcultorConsoleApp
 		{
 			int a, b, menu;
 
-			Console.Title = "APLIKASI CALCULATOR";
 			Console.WriteLine("\t\tCALCULATOR APPLICATION");
 			Console.WriteLine();
 			Console.WriteLine("1. Penambahan");
@@ -21,7 +20,7 @@ namespace CalcultorConsoleApp
 			Console.WriteLine("4. Pembagian");
 			Console.WriteLine("5. Sisa bagi");
 			Console.WriteLine();
-			Console.Write("Masukkan menu yang anda inginkan : ");
+			Console.Write("Masukkan menu yang anda inginkan (1/2/3/...) : ");
 			menu = Convert.ToInt32(Console.ReadLine());
 			Console.WriteLine();
 
