@@ -8,7 +8,7 @@ namespace taxi
 {
     public class Taxi
     {
-        public  string? DriverName { get; set; } // untuk vs 2022 mengapa setelah string harus ada "?" agar tidak terjadi warning?
+        public string? DriverName { get; set; } // untuk vs 2022 mengapa setelah string harus ada "?" agar tidak terjadi warning?
         public bool OnDuty { get; set; }
         public int NumPassenger { get; set; }
 
